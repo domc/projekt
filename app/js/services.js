@@ -97,6 +97,8 @@ var loginService = angular.module('loginServices', ['firebase', 'firebaseService
               auth.$login('facebook', {
               rememberMe: true,
               scope: 'email,user_likes'
+            }).then(function(user){
+              console.log(user);
             });
             },
 
