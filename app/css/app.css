@@ -84,3 +84,8 @@ img.detail {
    display: none;
    visibility: hidden;
 }
+chart{
+    display:block;
+    width:700px;
+    height:400px;
+}
